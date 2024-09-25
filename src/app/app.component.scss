@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+::ng-deep body {
+    background-image: url('../assets/images/fondo-espacio.png');
+    padding: 0;
+    margin: 0;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+
+::ng-deep header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::ng-deep a {
+    color: #FFE81F;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    font-size: 5vh;
+}
+
+::ng-deep h2 {
+    color: #FFE81F;
+    font-size: 4em;
+}
+
+::ng-deep p {
+    color: #FFE81F;
+    text-align: justify;
+    width: 70%;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    margin-left: 800px;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+::ng-deep footer {
+    background-color: black;
+    border: solid;
+    border-width: #FFE81F;
+    border-top: 3px solid #FFE81F;
+    display: flex;
+  justify-content: space-between;
+  }
+
+  ::ng-deep h3 {
+    color: #FFE81F;
+    font-size: 4vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+    margin-bottom: 30px;
+  }
+
+  .menuFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
